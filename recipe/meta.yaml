@@ -1,13 +1,14 @@
-{% set version = "0.3.8" %}
+{% set name = "pymeeus" %}
+{% set version = "0.3.9" %}
 
 
 package:
-  name: pymeeus
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/P/PyMeeus/PyMeeus-{{ version }}.tar.gz
-  sha256: ef398fb9b690d949dbd25827174ef111ece4988cb7cc3b3b3d682072cf9d4344
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/PyMeeus-{{ version }}.tar.gz
+  sha256: 116937baaa45897929ad3f1bd3f6dd4cb407c22bf06b194b700bcc7d3159f1d7
 
 build:
   number: 0
@@ -30,9 +31,9 @@ test:
     - pip
 
 about:
-  home: https://pypi.org/project/PyMeeus/
+  home: https://github.com/architest/pymeeus
   summary: Python implementation of Jean Meeus astronomical routines
-  license: LGPL-3.0-or-later
+  license: LGPL-3.0
   license_file: COPYING.LESSER
 
 extra:
