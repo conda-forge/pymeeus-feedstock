@@ -17,10 +17,10 @@ build:
 
 requirements:
   host:
+    - python >=3
     - pip
-    - python
   run:
-    - python
+    - python >=3
 
 test:
   imports:
@@ -33,7 +33,7 @@ test:
 about:
   home: https://github.com/architest/pymeeus
   summary: Python implementation of Jean Meeus astronomical routines
-  license: LGPL-3.0
+  license: LGPL-3.0-or-later
   license_file: COPYING.LESSER
 
 extra:
