@@ -1,7 +1,7 @@
 About pymeeus
 =============
 
-Home: https://pypi.org/project/PyMeeus/
+Home: https://github.com/architest/pymeeus
 
 Package license: LGPL-3.0-or-later
 
