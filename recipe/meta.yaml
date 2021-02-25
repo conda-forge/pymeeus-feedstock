@@ -1,5 +1,5 @@
 {% set name = "pymeeus" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/PyMeeus-{{ version }}.tar.gz
-  sha256: 5749fe48c26f283b189ea3d619f181157e7a19c6285dbbe38ca01631dae0eafc
+  sha256: 6b7b3b86e4a8c9065fcf3b2ebb3f1e122d1a819de1a98461c3f873feab550291
 
 build:
   number: 0
